@@ -1,0 +1,12 @@
+$bc-red: #FF3535;
+$bc-grey: #F7F7F7;
+
+@mixin ul-style {
+    ul li::marker {
+        color: red;
+    }
+    ul{
+        padding: 0;
+        margin-left: 15px;
+    }
+}

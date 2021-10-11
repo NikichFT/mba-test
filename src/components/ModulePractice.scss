@@ -1,0 +1,47 @@
+@import '../utils/style-variables.scss';
+
+@media screen and (max-width: 768px) {
+    .module-practice{
+        display: flex;
+        margin-top: 34px;
+        flex-direction: column;
+        background-color: $bc-red;
+        align-items: center;
+        padding: 31px 17px 41px 17px;
+        &__head{
+            font-size: 25px;
+            font-weight: 500;
+        }
+        &__description{
+            padding: 25px 5px 0 5px;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 130%;
+        }
+    }
+}
+@media screen and (min-width: 769px) {
+    .module-practice{
+        display: flex;
+        background-color: $bc-red;
+        flex-direction: column;
+        color: #FFFFFF;
+        padding: 56px 71px;
+        max-width: 628px;
+        height: auto; 
+        &__head{
+            font-size: 36px;
+            font-weight: 700;
+        }
+        &__description{
+            margin-top: 24px;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 130%;
+        }
+    }
+}
+.module-practice{
+    color: #FFFFFF;
+    font-family: 'Styrene A Web';
+}

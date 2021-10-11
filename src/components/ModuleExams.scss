@@ -1,0 +1,52 @@
+@import '../utils/style-variables.scss';
+
+@media screen and (max-width: 768px) {
+    .module-exams{
+        margin-top: 23px;
+        padding: 31px 23px 23px 23px;
+        &__head{
+            font-size: 25px;
+            font-weight: 500;
+        }
+        &__description{
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 130%;
+            li{
+                margin-bottom: 15px;
+            }
+            ul{
+                margin-top: 22px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 769px) {
+    .module-exams{
+        margin-left: 30px;
+        padding: 52px 57px;
+        max-width: 628px;
+        max-height: auto;
+        &__head{
+            font-size: 36px;
+            font-weight: 700;
+        }
+        &__description{
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 130%;
+            li{
+                margin-bottom: 15px;
+            }
+            ul{
+                margin-top: 22px;
+            }
+        }
+    }
+}
+.module-exams{
+    @include ul-style;
+    background: #2D2C2A;
+    color: #FFFFFF;
+    font-family: 'Styrene A Web';
+}

@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+  h1{
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0;
+  }
+  h2{
+    font-size: 22px;
+    margin: 35px 0 26px 0;
+  }
+  .wrapper{
+    padding: 28px 15px 28px 15px ;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h1{
+    color: #262626;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 89px;
+  }
+  h2{
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 54px;
+    align-self: flex-start;
+  }
+
+  .App {
+    font-family: 'Styrene A Web';
+    padding: 0 12.5%;
+    display: flex;
+    justify-content: center;
+    .wrapper{
+      padding: 71px 77px;
+      max-width: 1440px;
+      margin: 0;
+    }
+    .module-area{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .module-other{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+.App{
+  background-color: #ffffff;
+  font-family: 'Styrene A Web';
+}

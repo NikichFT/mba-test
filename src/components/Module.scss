@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+    .module{
+        display:flex;
+        flex-direction: column;
+        &__content{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+@media screen and (min-width: 769px) {
+    .module{
+        display:flex;
+        flex-direction: column;
+        padding-left: 14px;
+        align-items: center;
+        &__content{
+            display: flex;
+            max-width: 1256px;
+            flex-direction: row;
+        }
+    }
+}
